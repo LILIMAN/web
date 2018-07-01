@@ -1,0 +1,31 @@
+
+.Staupdates{
+    padding: .32rem;
+}
+.status-jumpbox{
+    border-radius: 16px;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #333333;
+}
+.adge {
+    color: #FFF;
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    /* border-radius: 1000px; */
+    height: 16px;
+    width: 30px;
+    padding: 3px 6px;
+    white-space: nowrap;
+    background-color: #D0D0D0;
+}
+.adge-red {
+    background-color:#ED5656;
+}
+.adge-green{
+    background-color:#76DA18;
+}
+.adge-yellow {
+    background-color:#FCE241;
+}

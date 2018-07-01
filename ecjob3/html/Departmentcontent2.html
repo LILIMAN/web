@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>List - theme4</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link rel="stylesheet" href="../css/ydui.css?rev=@@hash"/>
+    <link rel="stylesheet" href="../css/demo.css"/>
+    <link rel="stylesheet" href="../css/Departmentcontent2.css"/>
+    <script src="../js/ydui.flexible.js"></script>
+</head>
+<body>
+<section class="g-flexview">
+    <section class="g-scrollview">
+        <div class="m-celltitle">
+        <div class="cell-item">
+            <div class="searchbar">
+                <input  placeholder="Search" />
+                <a href="javascript:;" class="search-btn">搜索</a>
+            </div>
+        </div>
+        </div>
+        <article class="m-list list-theme4">
+            <div class="full-company">
+            <p class="post">豪庭軟件公司(36)<b class="add-all"> <label class="add-all-btn cell-right">
+                <input type="checkbox"  name="checkbox"/>
+                <i class="cell-checkbox-icon"></i>
+            </label></b></p>
+            <a href="javascript:;" class="list-item">
+                <div class="condition-img">
+                    <img src="../imgs/guide_6.png">
+                </div>
+                <div class="list-mes">
+                    <h3 class="list-title">MinShi Chan</h3>
+                    <div class="discount-detail t">
+                        <div class="status-describe"><span class="describe-word">Alice</span></div>
+                        <div class="status-describe"><span class="describe-word">Officer</span></div>
+                    </div>
+                    <div class="t set-time">
+                        <label class="cell-right mell-layout">
+                            <input type="checkbox"  name="checkbox"/>
+                            <i class="cell-checkbox-icon"></i>
+                        </label>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <div class="all-departments">
+                <p class="post">市場部(14)<b class="add-all"> <label class="add-all-btn cell-right">
+                    <input type="checkbox" value="3" name="checkbox"/>
+                    <i class="cell-checkbox-icon"></i>
+                </label></b></p>
+                <a href="javascript:;" class="list-item">
+                    <div class="condition-img">
+                        <img src="../imgs/guide_6.png">
+                    </div>
+                    <div class="list-mes">
+                        <h3 class="list-title">MinShi Chan</h3>
+                        <div class="discount-detail t">
+                            <div class="status-describe"><span class="describe-word">Alice</span></div>
+                            <div class="status-describe"><span class="describe-word">部門主管</span></div>
+                        </div>
+                        <div class="t set-time">
+                            <label class="cell-right mell-layout">
+                                <input type="checkbox" value="3" name="checkbox"/>
+                                <i class="cell-checkbox-icon"></i>
+                            </label>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </article>
+    </section>
+</section>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../js/ydui.js"></script>
+<script>
+    !function () {
+        $('.m-list').find('img').lazyLoad({binder: '.g-scrollview'});
+    }();
+</script>
+</body>
+</html>

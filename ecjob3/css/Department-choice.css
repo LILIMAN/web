@@ -1,0 +1,100 @@
+
+.searchbar {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    /* min-height: 1rem; */
+    color: #525252;
+    text-align: right;
+    font-size: 0.26rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin: 8px 0;
+    height: 34px;
+    border: 1px solid #E0E0E0;
+    padding-left: 10px;
+}
+.searchbar>input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 1rem;
+    border: none;
+    font-size: 0.3rem;
+    background: transparent;
+    color: #555;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-align: left;
+    height: 34px;
+}
+.search-btn{
+    height: 34px;
+    color: #2CA9E0;
+    border-left: 1px solid #E0E0E0;
+    text-align: center;
+    position: relative;
+    pointer-events: auto;
+    line-height:34px;
+    font-size: 0.26rem;
+    display: inline-block;
+    padding: 0 .2rem;
+    border-radius: 3px;
+}
+.cell-item:not(:last-child):after{
+    border-bottom: none;!important;
+}
+.leder-img>img{
+    width: .36rem;
+    height: .36rem;
+    float: left;
+    margin-left: 19px;
+    margin-right: 4px;
+
+}
+.division{
+    border-bottom: 1px solid #CCCCCC;
+    padding-left: 18px;
+}
+.layout{
+    height: 61px;
+}
+.c-cell {
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
+}
+.mell-left {
+    color: #333333;
+    font-size: 0.34rem;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}

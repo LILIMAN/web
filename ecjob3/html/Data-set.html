@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link rel="stylesheet" href="../css/ydui.css?rev=@@hash"/>
+    <link rel="stylesheet" href="../css/demo.css"/>
+    <link rel="stylesheet" href="../css/Data-set.css"/>
+    <script src="../js/ydui.flexible.js"></script>
+</head>
+<body>
+<section class="g-flexview">
+    <section class="data-setup">
+        <div class="staff-heder">
+            <a href="" class="navbar-item"><i class="back-ico back-ico2"></i></a>
+            <img src="../imgs/examine.png">
+            <p>紀曉明</p>
+        </div>
+        <div class="m-cell">
+            <a href="Department-choice.html" class="option">
+                <div class="option-left">部門</div>
+                <div class="position cell-arrow">市場銷售部</div>
+            </a>
+            <div class="option " autocomplete="off" id="J_ShowActionSheet" readonly="ture">
+                <div class="option-left">角色</div>
+                <div class="position cell-arrow">一般權限</div>
+            </div>
+            <div href="list.theme1.html" class="option">
+                <div class="option-left">編號</div>
+                <input class="position " style="color: #999999"></input>
+            </div>
+            <div href="list.theme1.html" class="option">
+                <div class="option-left" >職務</div>
+                <input class="position " style="color: #999999"></input>
+            </div>
+        </div>
+        <button type="button" class="btn-finish">完成</button>
+        <div class="m-actionsheet" id="J_ActionSheet">
+            <div class="jurisdiction-jumpbox">
+            <a href="#" class="actionsheet-item">權限1</a>
+            <a href="#" class="actionsheet-item">權限2</a>
+            <a href="#" class="actionsheet-item">權限3</a>
+            <a href="#" class="actionsheet-item">權限4</a>
+            </div>
+            <a href="javascript:;" class="actionsheet-action" id="J_Cancel">取消</a>
+        </div>
+    </section>
+</section>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../js/ydui.js"></script>
+<script>
+    /**
+     * Javascript API调用ActionSheet
+     */
+    !function ($) {
+        var $myAs = $('#J_ActionSheet');
+
+        $('#J_ShowActionSheet').on('click', function () {
+            $myAs.actionSheet('open');
+        });
+
+        $('#J_Cancel').on('click', function () {
+            $myAs.actionSheet('close');
+        });
+
+        // 自定义事件
+        $myAs.on('open.ydui.actionsheet', function () {
+            console.log('打开了');
+        }).on('close.ydui.actionsheet', function () {
+            console.log('关闭了');
+        });
+    }(jQuery);
+</script>
+</body>
+</html>

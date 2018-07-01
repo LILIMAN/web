@@ -1,0 +1,16 @@
+
+.red{background: #ED5656;}.green{background: #76DA18;}.yellow{background: #FCE241}
+.t{ display: inline-block;}
+.content-icon{ width: .36rem;  margin-top: -3px;  display: inline-block;  vertical-align: middle;}
+.discount-detail{ width: 70%;  margin-top: 2px;}.set-time{width: 28%;float: right;}.set-time p{text-align: center;}
+.status-describe{ line-height: 19px;margin-left: -2px;overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;}.describe-word{ font-size: 0.28rem;  margin-left: 4px;color: #666666;}
+.ytd{    font-size: .24rem;
+    color: #999999;}
+.clock{
+    font-size: .30rem;
+    color: #666666;
+}
